@@ -26,6 +26,9 @@ public class TestConstants {
     public static final String AUTH_USER_EMAIL = "test@domain.com";
     public static final String AUTH_USER_PASSWORD = "welcome1";
 
+    public static final String TEXT_REVIEW = "I liked this book";
+    public static final String TEXT_REVIEW_ONE = "Review test";
+
     public static String createURLWithPort(String url, int port) {
         return "http://localhost:" + port + url;
     }
